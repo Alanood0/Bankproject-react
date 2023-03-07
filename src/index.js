@@ -3,16 +3,20 @@ import ReactDOM from 'react-dom/client';
 import Header from './Header';
 import './style.css';
 import reportWebVitals from './reportWebVitals';
-import Footer from './footer';
+import Footer from './Footer';
 import Section from './Section';
+import Login from './Login';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <>
     <Header/>
-    <Section/>
-    {/* <Footer/> */}
+    <Section/> 
+    <Login/> 
+    <Footer/>
+    
+    
     </>
   </React.StrictMode>
 );
