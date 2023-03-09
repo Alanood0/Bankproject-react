@@ -1,3 +1,6 @@
+import React from 'react';
+import Aboutus from './Aboutus';
+import Home from './Home';
 function Header(){
 
     return(
@@ -17,7 +20,8 @@ function Header(){
         <a className="nav-link" href="index.html">Home <span className="sr-only">(current)</span></a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="aboutus.html">About Us</a>
+        <a className="nav-link"> </a>
+      <Link to='/Aboutus'>About Us<Link/>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="signup.html">Sign Up</a>

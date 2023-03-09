@@ -1,0 +1,195 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+#logo{
+  width: 20%;
+  flex: content;
+  border-color: none;
+  background-color: white;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #e4eef2;
+}
+header {
+    background-color: white;
+}
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: #dbe2e5!important;
+}
+header {
+  background-color: white;
+}
+.navbar-brand{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5rem;
+    color: #022061!important;
+}
+
+.nav-link{
+    color: #5f6368!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color: #f3f1f1;
+}
+
+/* navbar css ends here  */
+
+#section2{
+display: block;
+width: 100%;
+background: #fff;
+padding: 2.1875em 1.5625em;
+position: relative;
+}
+
+
+#section2 div{
+    background-color: #f3f1f1
+    }
+
+
+#section2 h3{
+    text-align: center;
+
+}
+
+#section2 p{
+    text-align: center;
+    padding: 20px;
+    background-color: #f3f1f1
+}
+
+.text {
+    font-size: 20px;
+    color: rgb(42, 77, 132);
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+    padding: 70px;
+    
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+* {
+    font-family: "Open Sans", cambria;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* footer */
+.fa:hover {
+    color: red;
+     transform:scale(1.3);
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa {
+    padding: 15px;
+    font-size: 12px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .footer{
+    background-color: #e4eff2;
+    padding: 5px;
+  
+  }
+
+  .mission-icon {
+    width: 3.3125em;
+    height: 3.3125em;
+    display: block;
+    margin: 0 0 0.9375em;
+    align-items: center;
+    margin-left: auto;
+  margin-right: auto;
+  }
+  /* footer css ends here  */
+
+  .footer-basic {
+    padding:40px 0;
+   
+    color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+  
