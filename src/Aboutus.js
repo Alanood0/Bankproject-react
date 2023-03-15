@@ -8,8 +8,8 @@ function aboutus(){
     return(
 <>
 <Header/>
-<Footer/>
 <body> 
+  
 <section id="section1">
   <div>
       <h1>About sharjah islamic Bank</h1>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom"
 import Aboutus from './Aboutus';
 import Home from './Home';
 function Header(){
@@ -21,7 +22,7 @@ function Header(){
       </li>
       <li className="nav-item">
         <a className="nav-link"> </a>
-      <Link to='/Aboutus'>About Us<Link/>
+      <Link to='/Aboutus'>About Us</Link>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="signup.html">Sign Up</a>
