@@ -8,7 +8,7 @@ import './style.css';
 import Aboutus from './Aboutus';
 import Home from './Home';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-
+import Signuppage from './Signuppage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,7 +18,7 @@ root.render(
     <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/Aboutus' element={<Aboutus/>}/>
-      
+        <Route path='/Signuppage' element={<Signuppage/>}/>
     </Routes>
    </BrowserRouter>
 

@@ -1,0 +1,328 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+#logo{
+  width: 20%;
+  flex: content;
+  border-color: transparent;
+  background-color: white;
+  
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #e4eef2;
+}
+
+/* navbar css starts here  */
+.bg-light{
+  background-color: #dbe2e5!important;
+}
+header {
+background-color: white;
+}
+.navbar-brand{
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 1.5rem;
+  color: #022061!important;
+}
+
+.nav-link{
+  color: #5f6368!important;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+  background-color: #f3f1f1;
+}
+
+/* navbar css ends here  */
+
+
+
+/* footer css starts here */
+/* footer */
+.fa:hover {
+  color: red;
+   transform:scale(1.3);
+
+
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa {
+  padding: 15px;
+  font-size: 12px;
+  width: 40px;
+   height: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.footer{
+  background-color: #e4eff2;
+    padding: 5px;
+
+}
+/* footer css ends here  */
+* {
+  font-family: "Open Sans", cambria;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1{
+  text-align: center;
+}
+body {
+  font-family: helvetica, sans-serif;
+}
+
+fieldset {
+  min-height: 200px;
+}
+
+.standard-label, .standard-input {
+    display: block;
+}
+
+.standard-label {
+  margin-bottom: 20px;
+  
+}
+.standard-label1 {
+  margin-bottom: 20px;
+  text-align: center;
+  position: center;
+  
+}
+.mb-3{
+  margin-bottom: 20px;
+  text-align: center;
+  position: center;
+}
+
+.standard-input, .standard-select {
+  margin-top: 10px;
+  border: 3px lightsteelblue solid;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.standard-input {
+  height: 25px;
+  width: 250px;
+  font-size: 1em;
+}
+
+.standard-select {
+  height: 32px;
+  width: 150px;
+  font-size: 1em;
+}
+
+#account-select {
+  width: 260px;
+}
+
+.container2 {
+  width: 70%;
+  max-width: 800px;
+  margin: 0 auto;
+  border: transparent;
+  padding: 10px;
+  background-color: #86a8bd;
+}
+
+.sub-container {
+  padding-left: 10px;
+  background-color: white;
+  margin: 10px auto;
+}
+
+.required {
+  font-size: 1.5em;
+  color: red;
+}
+
+.small-heading {
+  font-size: 18px;
+}
+
+.radio-label {
+  font-size: 20px;
+  margin: 0 40px;
+}
+
+.radio-input {
+  margin-bottom: 25px;
+}
+
+button {
+  border: 2px none;
+  background-color: lightsteelblue;
+  border-radius: 5px;
+  margin: 70 px;
+  height: 35px;
+  width: 150px;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url(https://mywildalberta.ca/images/GFX-MWA-Parks-Reservations.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    border-width: thin;
+}
+
+#show-address {
+  display: none;
+  float: right;
+}
+
+#address-history {
+  display: none;
+}
+
+#non-uk {
+  display: none;
+  text-align: center;
+  font-size: 25px;
+  color: red;
+}
+
+#current-address {
+  display: none;
+}
+
+#previous-address {
+  display: none;
+}
+
+#get-consent {
+  display: none;
+  float: right;
+}
+
+#your-consent {
+  display: none;
+}
+
+#info-request {
+  display: none;
+}
+
+#submit-app {
+  display: none;
+  border: 2px black solid;
+  background-color: lightsteelblue;
+  border-radius: 5px;
+  margin: 15px auto;
+  height: 35px;
+  width: 180px;
+  font-size: 20px;
+  float: right;
+}
+
+.terms{
+  text-align: start;
+  font-style: normal;
+}
+/** Media Queries **/
+
+@media screen and (max-width: 1100px) {
+  
+  h1 {
+    font-size: 24px; 
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  .container {
+    width: 95%;
+  }
+}
+
+p{
+margin-right: auto;
+font-style: italic;
+text-align: center;
+padding: 20px;
+}
+
+.footer-basic {
+  padding:40px 0;
+ 
+  color:#4b4c4d;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+

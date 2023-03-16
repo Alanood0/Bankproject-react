@@ -18,14 +18,16 @@ function Header(){
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav ml-auto">
       <li className="nav-item active">
-        <a className="nav-link" href="index.html">Home <span className="sr-only">(current)</span></a>
+      <a className="nav-link">
+      <Link to='/'>Home</Link> </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link"> </a>
-      <Link to='/Aboutus'>About Us</Link>
+        <a className="nav-link"> 
+      <Link to='/Aboutus'>About Us</Link> </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="signup.html">Sign Up</a>
+      <a className="nav-link">
+      <Link to='/Signuppage'>Sign Up</Link> </a>
 
       </li>
   

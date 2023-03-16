@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 function Section(){
 
@@ -15,7 +16,8 @@ function Section(){
             Delivering creative solution based on islamic principles of partnership and trust. </p>
           <br/>
           <br/>
-          <a className="get-started" href="./aboutus.html"> Discover more about US!</a>
+          <a className="get-started"> <Link to='/Aboutus'>Discover more about US!</Link></a>
+    
         </div>
         <div className="col-md-6 col-sm-12 text-center" >
           <div className="hero-img-div">

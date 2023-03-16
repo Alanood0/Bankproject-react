@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function Footer(){
 
     return(
@@ -8,9 +9,9 @@ function Footer(){
           
               <div className="social"><a href="#"><i className="icon ion-social-instagram"></i></a><a href="#"><i className="icon ion-social-snapchat"></i></a><a href="#"><i className="icon ion-social-twitter"></i></a><a href="#"><i className="icon ion-social-facebook"></i></a></div>
                   <ul className="list-inline">
-                    <li className="list-inline-item"><a href="index.html">Home</a></li>
-                    <li className="list-inline-item"><a href="aboutus.html">About Us</a></li>
-                    <li className="list-inline-item"><a href="dashboard.css">Dashboard</a></li>
+                    <li className="list-inline-item"><a> <Link to='/'>Home</Link></a></li>
+                    <li className="list-inline-item"><a> <Link to='/Aboutus'>About Us</Link></a></li>
+                    <li className="list-inline-item"><a><Link to='/Dashboard'>Dashboard</Link></a></li>
                     <li className="list-inline-item"><a href="https://www.sib.ae/en/privacy-policy">Privacy Policy</a></li>
                   </ul>
                   <p className="copyright">SIB © 2002</p>
